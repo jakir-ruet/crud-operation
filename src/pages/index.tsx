@@ -3,6 +3,7 @@ import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import { Inter } from '@next/font/google'
+import Header from '@/container/hoc/Header';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,7 @@ function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='container'>
-        <h1>Hello, Next</h1>
+        <Header/>
       </main>
     </>
   )
